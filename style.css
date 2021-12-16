@@ -1,0 +1,177 @@
+:root {
+  font-family: Verdana, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+hr.dotted {
+  border-top: 1px dotted #67a3d7;
+}
+
+hr.dashed {
+  border-top: 1px dashed #67a3d7;
+}
+
+h1 {
+  font-size: xxx-large;
+}
+
+h2 {
+  font-size: xx-large;
+  color: #274b7e;
+}
+
+h3 {
+  font-size: x-large;
+}
+p {
+  line-height: 1.6;
+}
+/* Navigation Bar */
+.navbar {
+  background-color: #d0e5f2;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.navbar .btn-group .button {
+  float: right;
+  display: block;
+  border: none;
+  background-color: #d0e5f2;
+  color: #274b7e;
+  padding: 14px 16px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.navbar .btn-group .cur-button {
+  float: right;
+  display: block;
+  border: none;
+  background-color: #274b7e;
+  color: #d0e5f2;
+  padding: 14px 16px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  background-color: #d0e5f2;
+  color: #274b7e;
+  padding: 14px 10px;
+  font-size: 16px;
+  font-weight: 900;
+  text-align: center;
+  text-decoration: none;
+}
+
+.navbar .btn-group .button:hover {
+  background-color: #67a3d7;
+  color: #d0e5f2;
+}
+
+/* Main-Left */
+.main-left {
+  padding-top: 80px;
+  padding-left: 70px;
+  float: left;
+  width: 30%;
+  margin: 20px;
+}
+
+.main-left .profile-img {
+  border-radius: 100%;
+}
+
+/* Main-right */
+.main-right {
+  padding-top: 80px;
+  padding-right: 70px;
+  float: right;
+  width: 50%;
+  margin: 20px;
+}
+
+/* Main */
+.main {
+  padding-top: 80px;
+  padding-right: 80px;
+  padding-left: 80px;
+  margin: 20px;
+}
+
+.main .main-img {
+  border-radius: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: auto;
+}
+
+/* Contact Form */
+/* Refer to: https://www.w3schools.com/css/css_form.asp */
+.contactForm {
+  background-color: #d0e5f2;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #67a3d7;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.inputbox,
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #67a3d7;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+textarea,
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  font-family: Verdana, sans-serif;
+  border: 1px solid #67a3d7;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.inputbtn {
+  width: 100%;
+  background-color: #67a3d7;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.inputbtn:hover {
+  background-color: #274b7e;
+}
